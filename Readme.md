@@ -4,7 +4,7 @@
 
 ## 一、引言（或问题的提出、研究背景介绍、概述等）
 
-​		三角剖分构造Delaunay三角形也是计算机辅助几何设计研究的重要内容之一。它也广泛地应用在有限元分析和信息可视化等领域。对于仅包含离散点的数据集，可以采用离散点无约束Delaunay三角剖分算法得到强健的三
+​		三角剖分构造Delaunay三角形也是计算机辅助几何设计研究的重要内容之一。它也广泛地应用在有限元分析和信息可视化等领域。对于仅包含离散点的数据集，可以采用离散点无约束Delaunay三角剖分算法得到强健的三角网络
 
 <img src="https://github.com/Coeur-Bleu/cg2021ZYLDelaunayTriangulation/blob/ba2cfa4ef389a55197c7667123f60add812c421f/pictures/001.jpg" style="zoom:50%;" />
 
