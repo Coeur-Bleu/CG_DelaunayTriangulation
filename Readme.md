@@ -117,7 +117,7 @@
 
 ​		而**分治算法**就是将所有散点集合进行一定的拆分，将所拆分出的子集进行三角剖分绘图，再将各个子集所生成的三角网格进行合并，通过不断递归来实现所有点集的三角网绘图。
 
-<img src="https://github.com/Coeur-Bleu/cg2021ZYLDelaunayTriangulation/blob/ba2cfa4ef389a55197c7667123f60add812c421f/pictures/009.png" style="zoom:90%;" />
+<img src="https://github.com/Coeur-Bleu/cg2021ZYLDelaunayTriangulation/blob/ba2cfa4ef389a55197c7667123f60add812c421f/pictures/010.png" style="zoom:90%;" />
 
 ​		如上图所示，三角网生成法的时间效率最低，分治算法的时间效率最高，逐点插入法效率居中。由于区域生长法本质的缺陷，导致其效率受限，这种方法在80年代中期以后已经很少使用。分治算法时间效率相对较高，但是由于其递归执行，所以需要较大的内存空间，导致其空间效率较低。此外，分治法的数据处理及结果的优化需要的工作量也比较大。逐点插入算法实现简单，时间效率比较高，而运行占用的空间也较小，从时间效率和空间效率综合考虑，性价比最高，因而应用广泛。
 
